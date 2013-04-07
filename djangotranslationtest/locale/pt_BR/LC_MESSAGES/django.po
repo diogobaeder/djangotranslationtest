@@ -18,6 +18,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
+# APP NAMES
+msgid "Geography"
+msgstr "Geografia"
+
 #: templates/admin/index.html:18
 msgid "Home"
 msgstr ""
