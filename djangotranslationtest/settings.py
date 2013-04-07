@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # Django settings for djangotranslationtest project.
 
 from unipath import Path
@@ -38,6 +39,15 @@ TIME_ZONE = 'America/Sao_Paulo'
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
 LANGUAGE_CODE = 'pt-br'
+
+LANGUAGES = (
+    ('en', u'English'),
+    ('pt-br', u'Português'),
+)
+
+LOCALE_PATHS = (
+    PROJECT_DIR.child('locale'),
+)
 
 SITE_ID = 1
 
