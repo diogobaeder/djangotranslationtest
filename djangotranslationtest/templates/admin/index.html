@@ -30,7 +30,7 @@
         <div class="g-d-12 g-d-f">
             {% for app in app_list %}
                 <div class="grp-module" id="app_{{ app.name|lower }}">
-                    <h2><a href="{{ app.app_url }}" class="grp-section">{% trans app.name %}</a></h2>
+                    <h2><a href="{{ app.app_url }}" class="grp-section">{% trans app.name context "App Name"%}</a></h2>
                     {% for model in app.models %}
                         <div class="grp-row">
                             {% if model.admin_url %}
